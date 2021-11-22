@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1E4299FE-3C83-4341-A619-1B6253F6ECF4}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>BAEKJOON</RootNamespace>
+    <AssemblyName>BAEKJOON</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Problems\2103_2w_011\10448.cs" />
+    <None Include="Problems\2103_2w_011\1837.cs" />
+    <None Include="Problems\2103_2w_011\9094.cs" />
+    <None Include="Problems\2103_2w_011\1063.cs" />
+    <None Include="Problems\2103_2w_011\1935.cs" />
+    <None Include="Problems\2103_2w_011\14888.cs" />
+    <None Include="Problems\2103_2w_011\17219.cs" />
+    <None Include="Problems\2103_3w_012\2167.cs" />
+    <None Include="Problems\2103_3w_012\16968.cs" />
+    <None Include="Problems\2103_3w_012\13301.cs" />
+    <None Include="Problems\2103_3w_012\8979.cs" />
+    <None Include="Contest\Startup Coding Festival 2021\MockTest1.cs" />
+    <None Include="Contest\Startup Coding Festival 2021\MockTest2.cs" />
+    <None Include="Contest\Startup Coding Festival 2021\1\Test1.cs" />
+    <None Include="Contest\Startup Coding Festival 2021\1\Test2.cs" />
+    <None Include="Contest\Startup Coding Festival 2021\1\Test6.cs" />
+    <None Include="Contest\Startup Coding Festival 2021\1\Test5.cs" />
+    <None Include="Problems\2103_4w_013\1668.cs" />
+    <None Include="Problems\2103_4w_013\1145.cs" />
+    <None Include="Problems\2103_4w_013\2160.cs" />
+    <None Include="Problems\2103_4w_013\1057.cs" />
+    <None Include="Problems\2103_4w_013\1120.cs" />
+    <None Include="Problems\2104_1w_014\2858.cs" />
+    <None Include="Problems\2104_1w_014\2857.cs" />
+    <None Include="Problems\2104_1w_014\1357.cs" />
+    <None Include="Problems\2104_4w_015\2745.cs" />
+    <None Include="Problems\2104_4w_015\5576.cs" />
+    <None Include="Problems\2105_1w_016\14697.cs" />
+    <None Include="Problems\2105_1w_016\19532.cs" />
+    <None Include="Problems\2105_1w_016\2161.cs" />
+    <None Include="Problems\2105_1w_016\2947.cs" />
+    <None Include="Problems\2105_1w_016\1463.cs" />
+    <None Include="Problems\2105_2w_017\2475.cs" />
+    <None Include="Problems\2105_2w_017\1233.cs" />
+    <None Include="Problems\2105_2w_017\7567.cs" />
+    <None Include="Problems\2105_3w_018\2902.cs" />
+    <None Include="Problems\2105_3w_018\5586.cs" />
+    <None Include="Problems\2105_3w_018\9012.cs" />
+    <Compile Include="Problems\2106_4w_019\10808.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Result.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

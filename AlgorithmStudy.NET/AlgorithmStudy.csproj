@@ -1,0 +1,219 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Contest\Startup Coding Festival 2021\1\Test1.cs" />
+    <Compile Remove="Contest\Startup Coding Festival 2021\1\Test2.cs" />
+    <Compile Remove="Contest\Startup Coding Festival 2021\1\Test5.cs" />
+    <Compile Remove="Contest\Startup Coding Festival 2021\1\Test6.cs" />
+    <Compile Remove="Contest\Startup Coding Festival 2021\MockTest1.cs" />
+    <Compile Remove="Contest\Startup Coding Festival 2021\MockTest2.cs" />
+    <Compile Remove="Problems\2103_2w_011\10448.cs" />
+    <Compile Remove="Problems\2103_2w_011\1063.cs" />
+    <Compile Remove="Problems\2103_2w_011\14888.cs" />
+    <Compile Remove="Problems\2103_2w_011\17219.cs" />
+    <Compile Remove="Problems\2103_2w_011\1837.cs" />
+    <Compile Remove="Problems\2103_2w_011\1935.cs" />
+    <Compile Remove="Problems\2103_2w_011\9094.cs" />
+    <Compile Remove="Problems\2103_3w_012\13301.cs" />
+    <Compile Remove="Problems\2103_3w_012\16968.cs" />
+    <Compile Remove="Problems\2103_3w_012\2167.cs" />
+    <Compile Remove="Problems\2103_3w_012\8979.cs" />
+    <Compile Remove="Problems\2103_4w_013\1057.cs" />
+    <Compile Remove="Problems\2103_4w_013\1120.cs" />
+    <Compile Remove="Problems\2103_4w_013\1145.cs" />
+    <Compile Remove="Problems\2103_4w_013\1668.cs" />
+    <Compile Remove="Problems\2103_4w_013\2160.cs" />
+    <Compile Remove="Problems\2104_1w_014\1357.cs" />
+    <Compile Remove="Problems\2104_1w_014\2857.cs" />
+    <Compile Remove="Problems\2104_1w_014\2858.cs" />
+    <Compile Remove="Problems\2104_4w_015\2745.cs" />
+    <Compile Remove="Problems\2104_4w_015\5576.cs" />
+    <Compile Remove="Problems\2105_1w_016\1463.cs" />
+    <Compile Remove="Problems\2105_1w_016\14697.cs" />
+    <Compile Remove="Problems\2105_1w_016\19532.cs" />
+    <Compile Remove="Problems\2105_1w_016\2161.cs" />
+    <Compile Remove="Problems\2105_1w_016\2947.cs" />
+    <Compile Remove="Problems\2105_2w_017\1233.cs" />
+    <Compile Remove="Problems\2105_2w_017\2475.cs" />
+    <Compile Remove="Problems\2105_2w_017\7567.cs" />
+    <Compile Remove="Problems\2105_3w_018\2902.cs" />
+    <Compile Remove="Problems\2105_3w_018\5586.cs" />
+    <Compile Remove="Problems\2105_3w_018\9012.cs" />
+    <Compile Remove="Problems\2106_4w_019\10808.cs" />
+    <Compile Remove="Problems\2106_4w_019\11651.cs" />
+    <Compile Remove="Problems\2106_4w_019\16395.cs" />
+    <Compile Remove="Problems\2106_4w_019\1676.cs" />
+    <Compile Remove="Problems\2106_4w_019\17608.cs" />
+    <Compile Remove="Problems\2107_1w_020\12605.cs" />
+    <Compile Remove="Problems\2107_1w_020\15881.cs" />
+    <Compile Remove="Problems\2107_1w_020\20001.cs" />
+    <Compile Remove="Problems\2107_2w_021\2798.cs" />
+    <Compile Remove="Problems\2107_2w_021\6679.cs" />
+    <Compile Remove="Problems\2107_2w_021\7568.cs" />
+    <Compile Remove="Problems\2108\1013.cs" />
+    <Compile Remove="Problems\2108\10162.cs" />
+    <Compile Remove="Problems\2108\1100.cs" />
+    <Compile Remove="Problems\2108\11656.cs" />
+    <Compile Remove="Problems\2108\11723.cs" />
+    <Compile Remove="Problems\2108\17090.cs" />
+    <Compile Remove="Problems\2108\17419.cs" />
+    <Compile Remove="Problems\2108\1789.cs" />
+    <Compile Remove="Problems\2108\2064.cs" />
+    <Compile Remove="Problems\2108\2217.cs" />
+    <Compile Remove="Problems\2108\2929.cs" />
+    <Compile Remove="Problems\2108\3447.cs" />
+    <Compile Remove="Problems\2108\5355.cs" />
+    <Compile Remove="Problems\2108\5585.cs" />
+    <Compile Remove="Problems\2108\9342.cs" />
+    <Compile Remove="Problems\2108\9996.cs" />
+    <Compile Remove="Problems\2109\10699.cs" />
+    <Compile Remove="Problems\2109\10757.cs" />
+    <Compile Remove="Problems\2109\10807.cs" />
+    <Compile Remove="Problems\2109\11279.cs" />
+    <Compile Remove="Problems\2109\1259.cs" />
+    <Compile Remove="Problems\2109\1520.cs" />
+    <Compile Remove="Problems\2109\1706.cs" />
+    <Compile Remove="Problems\2109\17219.cs" />
+    <Compile Remove="Problems\2109\1755.cs" />
+    <Compile Remove="Problems\2109\1874.cs" />
+    <Compile Remove="Problems\2109\1927.cs" />
+    <Compile Remove="Problems\2109\21734.cs" />
+    <Compile Remove="Problems\2109\3047.cs" />
+    <Compile Remove="Problems\2109\4999.cs" />
+    <Compile Remove="Problems\2109\5430.cs" />
+    <Compile Remove="Problems\2109\7785.cs" />
+    <Compile Remove="Problems\2109\9935.cs" />
+    <Compile Remove="Problems\2110\10769.cs" />
+    <Compile Remove="Problems\2110\11576.cs" />
+    <Compile Remove="Problems\2110\1244.cs" />
+    <Compile Remove="Problems\2110\1343.cs" />
+    <Compile Remove="Problems\2110\15963.cs" />
+    <Compile Remove="Problems\2110\16165.cs" />
+    <Compile Remove="Problems\2110\1934.cs" />
+    <Compile Remove="Problems\2110\1942.cs" />
+    <Compile Remove="Problems\2110\3003.cs" />
+    <Compile Remove="Problems\2110\3029.cs" />
+    <Compile Remove="Problems\2110\5026.cs" />
+    <Compile Remove="Problems\2110\5637.cs" />
+    <Compile Remove="Problems\Other\14681.cs" />
+    <Compile Remove="Problems\Other\2753.cs" />
+    <Compile Remove="Problems\Other\2884.cs" />
+    <Compile Remove="Problems\Other\9498.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Problems\2109\11279.cs" />
+    <None Include="Problems\2109\1520.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Problems\2109\10699.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Contest\Startup Coding Festival 2021\1\Test1.cs" />
+    <None Include="Contest\Startup Coding Festival 2021\1\Test2.cs" />
+    <None Include="Contest\Startup Coding Festival 2021\1\Test5.cs" />
+    <None Include="Contest\Startup Coding Festival 2021\1\Test6.cs" />
+    <None Include="Contest\Startup Coding Festival 2021\MockTest1.cs" />
+    <None Include="Contest\Startup Coding Festival 2021\MockTest2.cs" />
+    <None Include="Problems\2103_2w_011\10448.cs" />
+    <None Include="Problems\2103_2w_011\1063.cs" />
+    <None Include="Problems\2103_2w_011\14888.cs" />
+    <None Include="Problems\2103_2w_011\17219.cs" />
+    <None Include="Problems\2103_2w_011\1837.cs" />
+    <None Include="Problems\2103_2w_011\1935.cs" />
+    <None Include="Problems\2103_2w_011\9094.cs" />
+    <None Include="Problems\2103_3w_012\13301.cs" />
+    <None Include="Problems\2103_3w_012\16968.cs" />
+    <None Include="Problems\2103_3w_012\2167.cs" />
+    <None Include="Problems\2103_3w_012\8979.cs" />
+    <None Include="Problems\2103_4w_013\1057.cs" />
+    <None Include="Problems\2103_4w_013\1120.cs" />
+    <None Include="Problems\2103_4w_013\1145.cs" />
+    <None Include="Problems\2103_4w_013\1668.cs" />
+    <None Include="Problems\2103_4w_013\2160.cs" />
+    <None Include="Problems\2104_1w_014\1357.cs" />
+    <None Include="Problems\2104_1w_014\2857.cs" />
+    <None Include="Problems\2104_1w_014\2858.cs" />
+    <None Include="Problems\2104_4w_015\2745.cs" />
+    <None Include="Problems\2104_4w_015\5576.cs" />
+    <None Include="Problems\2105_1w_016\1463.cs" />
+    <None Include="Problems\2105_1w_016\14697.cs" />
+    <None Include="Problems\2105_1w_016\19532.cs" />
+    <None Include="Problems\2105_1w_016\2161.cs" />
+    <None Include="Problems\2105_1w_016\2947.cs" />
+    <None Include="Problems\2105_2w_017\1233.cs" />
+    <None Include="Problems\2105_2w_017\2475.cs" />
+    <None Include="Problems\2105_2w_017\7567.cs" />
+    <None Include="Problems\2105_3w_018\2902.cs" />
+    <None Include="Problems\2105_3w_018\5586.cs" />
+    <None Include="Problems\2105_3w_018\9012.cs" />
+    <None Include="Problems\2106_4w_019\10808.cs" />
+    <None Include="Problems\2106_4w_019\11651.cs" />
+    <None Include="Problems\2106_4w_019\16395.cs" />
+    <None Include="Problems\2106_4w_019\1676.cs" />
+    <None Include="Problems\2106_4w_019\17608.cs" />
+    <None Include="Problems\2107_1w_020\12605.cs" />
+    <None Include="Problems\2107_1w_020\15881.cs" />
+    <None Include="Problems\2107_1w_020\20001.cs" />
+    <None Include="Problems\2107_2w_021\2798.cs" />
+    <None Include="Problems\2107_2w_021\6679.cs" />
+    <None Include="Problems\2107_2w_021\7568.cs" />
+    <None Include="Problems\2108\1013.cs" />
+    <None Include="Problems\2108\10162.cs" />
+    <None Include="Problems\2108\1100.cs" />
+    <None Include="Problems\2108\11656.cs" />
+    <None Include="Problems\2108\11723.cs" />
+    <None Include="Problems\2108\17090.cs" />
+    <None Include="Problems\2108\17419.cs" />
+    <None Include="Problems\2108\1789.cs" />
+    <None Include="Problems\2108\2064.cs" />
+    <None Include="Problems\2108\2929.cs" />
+    <None Include="Problems\2108\3447.cs" />
+    <None Include="Problems\2108\5355.cs" />
+    <None Include="Problems\2108\5585.cs" />
+    <None Include="Problems\2108\9342.cs" />
+    <None Include="Problems\2108\9996.cs" />
+    <None Include="Problems\2109\10757.cs" />
+    <None Include="Problems\2109\10807.cs" />
+    <None Include="Problems\2109\1259.cs" />
+    <None Include="Problems\2109\1706.cs" />
+    <None Include="Problems\2109\17219.cs" />
+    <None Include="Problems\2109\1755.cs" />
+    <None Include="Problems\2109\1874.cs" />
+    <None Include="Problems\2109\1927.cs" />
+    <None Include="Problems\2109\21734.cs" />
+    <None Include="Problems\2109\3047.cs" />
+    <None Include="Problems\2109\4999.cs" />
+    <None Include="Problems\2109\5430.cs" />
+    <None Include="Problems\2109\7785.cs" />
+    <None Include="Problems\2109\9935.cs" />
+    <None Include="Problems\2110\10769.cs" />
+    <None Include="Problems\2110\11576.cs" />
+    <None Include="Problems\2110\1244.cs" />
+    <None Include="Problems\2110\1343.cs" />
+    <None Include="Problems\2110\15963.cs" />
+    <None Include="Problems\2110\16165.cs" />
+    <None Include="Problems\2110\1934.cs" />
+    <None Include="Problems\2110\1942.cs" />
+    <None Include="Problems\2110\3003.cs" />
+    <None Include="Problems\2110\3029.cs" />
+    <None Include="Problems\2110\5026.cs" />
+    <None Include="Problems\2110\5637.cs" />
+    <None Include="Problems\Other\14681.cs" />
+    <None Include="Problems\Other\2753.cs" />
+    <None Include="Problems\Other\2884.cs" />
+    <None Include="Problems\Other\9498.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="Problems\2108\2217.cs" />
+  </ItemGroup>
+
+</Project>
