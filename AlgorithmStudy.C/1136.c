@@ -1,5 +1,3 @@
-﻿#pragma	warning(disable:4996)
-
 #include <stdio.h>
 
 #define LENGTH 35
@@ -32,13 +30,10 @@ int main()
 		{
 			for (int j = 0; j < width; j++)
 			{
-				switch (board[i][j])
+				if (board[i][j] == '*')
 				{
-				case '*':
 					marker(i - 1, j - 1, 3);
-
 					result[i][j] = '*';
-					break;
 				}
 			}
 		}

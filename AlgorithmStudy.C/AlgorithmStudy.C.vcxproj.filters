@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\Lavida">
       <UniqueIdentifier>{08216471-9e09-4281-b632-1c506500f763}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\SYJ">
+      <UniqueIdentifier>{7e4f8e57-7bf8-49b5-b668-dcd4f88ff317}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="School.c">
@@ -44,6 +47,9 @@
     </ClCompile>
     <ClCompile Include="2130.c">
       <Filter>소스 파일\Lavida</Filter>
+    </ClCompile>
+    <ClCompile Include="Temp.c">
+      <Filter>소스 파일\SYJ</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
