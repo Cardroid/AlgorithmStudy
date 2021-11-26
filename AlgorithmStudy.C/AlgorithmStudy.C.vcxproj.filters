@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\SYJ">
       <UniqueIdentifier>{7e4f8e57-7bf8-49b5-b668-dcd4f88ff317}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Ascode">
+      <UniqueIdentifier>{76838af1-a6a1-4676-a2c6-376397222e20}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="School.c">
@@ -50,6 +53,9 @@
     </ClCompile>
     <ClCompile Include="Temp.c">
       <Filter>소스 파일\SYJ</Filter>
+    </ClCompile>
+    <ClCompile Include="1136.c">
+      <Filter>소스 파일\Ascode</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
