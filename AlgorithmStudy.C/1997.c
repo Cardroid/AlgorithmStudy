@@ -1,5 +1,3 @@
-﻿#pragma	warning(disable:4996)
-
 #include <stdio.h>
 #include <string.h>
 
@@ -46,8 +44,6 @@ int main()
 
 		int temp = total;
 
-		int input50000Price = temp / 50000;
-		temp = temp % 50000;
 		int input10000Price = temp / 10000;
 		temp = temp % 10000;
 		int input5000Price = temp / 5000;
@@ -58,7 +54,18 @@ int main()
 		if (temp > 0)
 			input1000Price++;
 
-		int totalInputPrice = input50000Price * 50000 + input10000Price * 10000 + input5000Price * 5000 + input1000Price * 1000;
+		int totalInputPrice = input10000Price * 10000 + input5000Price * 5000 + input1000Price * 1000;
+
+		temp = totalInputPrice;
+
+		input10000Price = temp / 10000;
+		temp = temp % 10000;
+		input5000Price = temp / 5000;
+		temp = temp % 5000;
+		input1000Price = temp / 1000;
+		temp = temp % 1000;
+
+		int totalInputPriceCount = input10000Price + input5000Price + input1000Price;
 
 		int minusPrice = totalInputPrice - total;
 
@@ -66,15 +73,11 @@ int main()
 		int output500Price = temp / 500;
 		temp = temp % 500;
 		int output100Price = temp / 100;
-		temp = temp % 100;
-		int output50Price = temp / 50;
-		temp = temp % 50;
-		int output10Price = temp / 10;
 
 		int totalOutputPrice = minusPrice;
-		int totalOutputPriceCount = output500Price + output100Price + output50Price + output10Price;
+		int totalOutputPriceCount = output500Price + output100Price;
 
-		printf("%d %d %d %d\n", total, totalInputPrice, totalOutputPrice, totalOutputPriceCount);
+		printf("%d %d %d %d %d\n", total, totalInputPrice, totalInputPriceCount, totalOutputPrice, totalOutputPriceCount);
 	}
 
 	return 0;

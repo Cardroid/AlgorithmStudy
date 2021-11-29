@@ -100,10 +100,29 @@
     <Compile Remove="Problems\2110\3029.cs" />
     <Compile Remove="Problems\2110\5026.cs" />
     <Compile Remove="Problems\2110\5637.cs" />
+    <Compile Remove="Problems\2110\9291.cs" />
+    <Compile Remove="Problems\2111\10102.cs" />
+    <Compile Remove="Problems\2111\10822.cs" />
+    <Compile Remove="Problems\2111\10987.cs" />
+    <Compile Remove="Problems\2111\11721.cs" />
+    <Compile Remove="Problems\2111\11728.cs" />
+    <Compile Remove="Problems\2111\11944.cs" />
+    <Compile Remove="Problems\2111\1371.cs" />
+    <Compile Remove="Problems\2111\4458.cs" />
     <Compile Remove="Problems\Other\14681.cs" />
     <Compile Remove="Problems\Other\2753.cs" />
     <Compile Remove="Problems\Other\2884.cs" />
     <Compile Remove="Problems\Other\9498.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Problems\2111\10102.cs" />
+    <None Include="Problems\2111\10822.cs" />
+    <None Include="Problems\2111\10987.cs" />
+    <None Include="Problems\2111\11721.cs" />
+    <None Include="Problems\2111\11728.cs" />
+    <None Include="Problems\2111\11944.cs" />
+    <None Include="Problems\2111\4458.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -206,6 +225,8 @@
     <None Include="Problems\2110\3029.cs" />
     <None Include="Problems\2110\5026.cs" />
     <None Include="Problems\2110\5637.cs" />
+    <None Include="Problems\2110\9291.cs" />
+    <None Include="Problems\2111\1371.cs" />
     <None Include="Problems\Other\14681.cs" />
     <None Include="Problems\Other\2753.cs" />
     <None Include="Problems\Other\2884.cs" />
