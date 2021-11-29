@@ -66,5 +66,8 @@
     <ClCompile Include="2127.c">
       <Filter>소스 파일\Lavida</Filter>
     </ClCompile>
+    <ClCompile Include="2420.c">
+      <Filter>소스 파일\Lavida</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
