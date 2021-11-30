@@ -109,8 +109,11 @@
     <Compile Remove="Problems\2111\11728.cs" />
     <Compile Remove="Problems\2111\11944.cs" />
     <Compile Remove="Problems\2111\1371.cs" />
+    <Compile Remove="Problems\2111\17413.cs" />
     <Compile Remove="Problems\2111\17478.cs" />
     <Compile Remove="Problems\2111\17626.cs" />
+    <Compile Remove="Problems\2111\1932.cs" />
+    <Compile Remove="Problems\2111\1991.cs" />
     <Compile Remove="Problems\2111\2559.cs" />
     <Compile Remove="Problems\2111\4458.cs" />
     <Compile Remove="Problems\Other\14681.cs" />
@@ -127,8 +130,11 @@
     <None Include="Problems\2111\11721.cs" />
     <None Include="Problems\2111\11728.cs" />
     <None Include="Problems\2111\11944.cs" />
+    <None Include="Problems\2111\17413.cs" />
     <None Include="Problems\2111\17478.cs" />
     <None Include="Problems\2111\17626.cs" />
+    <None Include="Problems\2111\1932.cs" />
+    <None Include="Problems\2111\1991.cs" />
     <None Include="Problems\2111\2559.cs" />
     <None Include="Problems\2111\4458.cs" />
   </ItemGroup>

@@ -2,32 +2,34 @@
 
 #include <stdio.h>
 
-int Sum_odd(int start, int end);
+#define LENGTH 5
+
+int Sumeven(int array[], int size);
 
 int main()
 {
-	int start, end;
+	int array[LENGTH];
 
-	printf("시작 값을 입력하세요: ");
-	scanf("%d", &start);
-	printf("끝 값을 입력하세요: ");
-	scanf("%d", &end);
+	printf("원소가 %d개인 수열을 입력하세요: ", LENGTH);
 
-	int rValue = Sum_odd(start, end);
+	for (int i = 0; i < LENGTH; i++)
+	{
+		scanf("%d", &array[i]);
+	}
+
+	int rValue = Sumeven(array, LENGTH);
 
 	printf("%d", rValue);
 
 	return 0;
 }
 
-int Sum_odd(int start, int end) {
-	int result = 0;
-
-	for (int i = start; i <= end; i++)
-	{
-		if (i % 2 == 1)
-			result += i;
-	}
+int Sumeven(int array[], int size)
+{
+	int i, result = 0;
+	for (i = 0; i < size; i++)
+		if (array[i] % 2 == 0)
+			result += array[i];
 
 	return result;
-}+
+}
