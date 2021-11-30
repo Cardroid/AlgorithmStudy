@@ -1,11 +1,8 @@
-﻿#pragma	warning(disable:4996)
-
 #include <stdio.h>
 #include <string.h>
 
 int main()
 {
-	//ascode 1129번
 	int test;
 	scanf("%d", &test);
 	float num;
