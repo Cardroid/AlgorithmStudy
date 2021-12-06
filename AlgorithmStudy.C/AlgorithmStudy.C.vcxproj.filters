@@ -72,5 +72,77 @@
     <ClCompile Include="1129.c">
       <Filter>소스 파일\Ascode</Filter>
     </ClCompile>
+    <ClCompile Include="1152.c">
+      <Filter>소스 파일\Ascode</Filter>
+    </ClCompile>
+    <ClCompile Include="1156.c">
+      <Filter>소스 파일\Ascode</Filter>
+    </ClCompile>
+    <ClCompile Include="1158.c">
+      <Filter>소스 파일\Ascode</Filter>
+    </ClCompile>
+    <ClCompile Include="1162.c">
+      <Filter>소스 파일\Ascode</Filter>
+    </ClCompile>
+    <ClCompile Include="1164.c">
+      <Filter>소스 파일\Ascode</Filter>
+    </ClCompile>
+    <ClCompile Include="1167.c">
+      <Filter>소스 파일\Ascode</Filter>
+    </ClCompile>
+    <ClCompile Include="1168.c">
+      <Filter>소스 파일\Ascode</Filter>
+    </ClCompile>
+    <ClCompile Include="1173.c">
+      <Filter>소스 파일\Ascode</Filter>
+    </ClCompile>
+    <ClCompile Include="1176.c">
+      <Filter>소스 파일\Ascode</Filter>
+    </ClCompile>
+    <ClCompile Include="1204.c">
+      <Filter>소스 파일\Ascode</Filter>
+    </ClCompile>
+    <ClCompile Include="1000.c">
+      <Filter>소스 파일\Lavida</Filter>
+    </ClCompile>
+    <ClCompile Include="1024.c">
+      <Filter>소스 파일\Lavida</Filter>
+    </ClCompile>
+    <ClCompile Include="2079.c">
+      <Filter>소스 파일\Lavida</Filter>
+    </ClCompile>
+    <ClCompile Include="2783.c">
+      <Filter>소스 파일\Lavida</Filter>
+    </ClCompile>
+    <ClCompile Include="2796.c">
+      <Filter>소스 파일\Lavida</Filter>
+    </ClCompile>
+    <ClCompile Include="1037.c">
+      <Filter>소스 파일\Ascode</Filter>
+    </ClCompile>
+    <ClCompile Include="1116.c">
+      <Filter>소스 파일\Ascode</Filter>
+    </ClCompile>
+    <ClCompile Include="1128.c">
+      <Filter>소스 파일\Ascode</Filter>
+    </ClCompile>
+    <ClCompile Include="1187.c">
+      <Filter>소스 파일\Ascode</Filter>
+    </ClCompile>
+    <ClCompile Include="1201.c">
+      <Filter>소스 파일\Ascode</Filter>
+    </ClCompile>
+    <ClCompile Include="1216.c">
+      <Filter>소스 파일\Ascode</Filter>
+    </ClCompile>
+    <ClCompile Include="1217.c">
+      <Filter>소스 파일\Ascode</Filter>
+    </ClCompile>
+    <ClCompile Include="1218.c">
+      <Filter>소스 파일\Ascode</Filter>
+    </ClCompile>
+    <ClCompile Include="1022.c">
+      <Filter>소스 파일\Lavida</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,5 +1,3 @@
-﻿#pragma	warning(disable:4996)
-
 #include <stdio.h>
 
 int min(int n1, int n2);
