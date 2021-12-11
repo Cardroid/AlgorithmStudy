@@ -144,5 +144,14 @@
     <ClCompile Include="1022.c">
       <Filter>소스 파일\Lavida</Filter>
     </ClCompile>
+    <ClCompile Include="2145.c">
+      <Filter>소스 파일\Lavida</Filter>
+    </ClCompile>
+    <ClCompile Include="1069.c">
+      <Filter>소스 파일\Ascode</Filter>
+    </ClCompile>
+    <ClCompile Include="2099.c">
+      <Filter>소스 파일\Lavida</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
