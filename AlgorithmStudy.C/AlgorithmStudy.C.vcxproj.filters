@@ -153,5 +153,20 @@
     <ClCompile Include="2099.c">
       <Filter>소스 파일\Lavida</Filter>
     </ClCompile>
+    <ClCompile Include="1005.c">
+      <Filter>소스 파일\Lavida</Filter>
+    </ClCompile>
+    <ClCompile Include="1014.c">
+      <Filter>소스 파일\Ascode</Filter>
+    </ClCompile>
+    <ClCompile Include="2367.c">
+      <Filter>소스 파일\Lavida</Filter>
+    </ClCompile>
+    <ClCompile Include="2803.c">
+      <Filter>소스 파일\Lavida</Filter>
+    </ClCompile>
+    <ClCompile Include="2399.c">
+      <Filter>소스 파일\Lavida</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
