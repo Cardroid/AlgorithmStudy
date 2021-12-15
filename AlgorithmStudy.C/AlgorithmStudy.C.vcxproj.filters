@@ -168,5 +168,8 @@
     <ClCompile Include="2399.c">
       <Filter>소스 파일\Lavida</Filter>
     </ClCompile>
+    <ClCompile Include="1081.c">
+      <Filter>소스 파일\Ascode</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
