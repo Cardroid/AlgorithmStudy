@@ -172,4 +172,9 @@
       <Filter>소스 파일\Ascode</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="1054.c">
+      <Filter>소스 파일\Ascode</Filter>
+    </None>
+  </ItemGroup>
 </Project>
