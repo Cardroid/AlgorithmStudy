@@ -131,6 +131,7 @@
     <Compile Remove="Problems\Other\2753.cs" />
     <Compile Remove="Problems\Other\2884.cs" />
     <Compile Remove="Problems\Other\9498.cs" />
+    <Compile Remove="Problems\Seminar\2178.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -270,10 +271,15 @@
     <None Include="Problems\Other\2753.cs" />
     <None Include="Problems\Other\2884.cs" />
     <None Include="Problems\Other\9498.cs" />
+    <None Include="Problems\Seminar\2178.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <Page Include="Problems\2108\2217.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Problems\2201\" />
   </ItemGroup>
 
 </Project>
