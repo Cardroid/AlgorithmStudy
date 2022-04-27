@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <string.h>
+
 int main() {
 	int testCase, x, y;
 	char move[101];
