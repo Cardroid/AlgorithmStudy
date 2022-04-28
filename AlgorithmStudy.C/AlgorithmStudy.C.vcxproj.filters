@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\Ascode">
       <UniqueIdentifier>{76838af1-a6a1-4676-a2c6-376397222e20}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Ascode\02_세미나">
+      <UniqueIdentifier>{31e9ca26-b8c6-4723-a72e-b30261330d4f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="School.c">
@@ -170,6 +173,21 @@
     </ClCompile>
     <ClCompile Include="1081.c">
       <Filter>소스 파일\Ascode</Filter>
+    </ClCompile>
+    <ClCompile Include="1226.c">
+      <Filter>소스 파일\Ascode\02_세미나</Filter>
+    </ClCompile>
+    <ClCompile Include="1228.c">
+      <Filter>소스 파일\Ascode\02_세미나</Filter>
+    </ClCompile>
+    <ClCompile Include="1233.c">
+      <Filter>소스 파일\Ascode\02_세미나</Filter>
+    </ClCompile>
+    <ClCompile Include="1232_2.c">
+      <Filter>소스 파일\Ascode\02_세미나</Filter>
+    </ClCompile>
+    <ClCompile Include="1232.c">
+      <Filter>소스 파일\Ascode\02_세미나</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

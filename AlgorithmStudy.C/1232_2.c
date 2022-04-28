@@ -1,32 +1,12 @@
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
+#include <math.h>
 
-int array[100001] = { 0, };
+int isPrime(int n);
+int isEmirp(int n);
 
 int main() {
-	for (int i = 2; i * i <= 100001; i++) {
-		for (int j = i + i; j <= 100001; j += i) {
-			array[j] = 1;
-		}
-	}
-
-	for (int i = 1; i <= 100001; i++) {
-		if (!array[i]) {
-			int temp = i, reverse = 0;
-
-			while (temp != 0) {
-				reverse *= 10;
-				reverse += temp % 10;
-				temp /= 10;
-			}
-
-			if (reverse == i || array[reverse]) {
-				array[i] = 1;
-			}
-		}
-	}
-
 	int testCase;
 	scanf("%d", &testCase);
 
@@ -45,7 +25,7 @@ int main() {
 
 		for (int i = m; i <= n; i++)
 		{
-			if (!array[i])
+			if (isEmirp(i))
 			{
 				count++;
 
@@ -64,4 +44,31 @@ int main() {
 	}
 
 	return 0;
+}
+
+int isPrime(int n) {
+	int k = (int)sqrt(n);
+	for (int i = 2; i <= k; i++) {
+		if (n % i == 0)
+			return 0;
+	}
+	return 1;
+}
+
+int isEmirp(int n) {
+	if (!isPrime(n))
+		return 0;
+
+	int temp = n, reverse = 0;
+
+	while (temp != 0) {
+		reverse *= 10;
+		reverse += temp % 10;
+		temp /= 10;
+	}
+
+	if (reverse == n || !isPrime(reverse)) {
+		return 0;
+	}
+	return 1;
 }
