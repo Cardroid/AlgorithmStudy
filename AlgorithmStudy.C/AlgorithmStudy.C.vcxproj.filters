@@ -201,6 +201,24 @@
     <ClCompile Include="1231.c">
       <Filter>소스 파일\Ascode\02_세미나</Filter>
     </ClCompile>
+    <ClCompile Include="1234.c">
+      <Filter>소스 파일\Ascode\02_세미나</Filter>
+    </ClCompile>
+    <ClCompile Include="1249.c">
+      <Filter>소스 파일\Ascode\02_세미나</Filter>
+    </ClCompile>
+    <ClCompile Include="1250.c">
+      <Filter>소스 파일\Ascode\02_세미나</Filter>
+    </ClCompile>
+    <ClCompile Include="1236.c">
+      <Filter>소스 파일\Ascode\02_세미나</Filter>
+    </ClCompile>
+    <ClCompile Include="1237.c">
+      <Filter>소스 파일\Ascode\02_세미나</Filter>
+    </ClCompile>
+    <ClCompile Include="1251.c">
+      <Filter>소스 파일\Ascode\02_세미나</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="1054.c">
