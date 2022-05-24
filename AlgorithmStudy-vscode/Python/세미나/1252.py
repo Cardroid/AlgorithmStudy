@@ -1,0 +1,1 @@
+[print(a)for a in[".".join([str(int(s[8*i:8*i+8],2))for i in range(4)])for s in[input()for _ in range(int(input()))]]]

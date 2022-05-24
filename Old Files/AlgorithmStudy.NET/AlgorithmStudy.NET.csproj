@@ -6,6 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Problems\2201\**" />
+    <EmbeddedResource Remove="Problems\2201\**" />
+    <None Remove="Problems\2201\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Remove="Contest\Startup Coding Festival 2021\1\Test1.cs" />
     <Compile Remove="Contest\Startup Coding Festival 2021\1\Test2.cs" />
     <Compile Remove="Contest\Startup Coding Festival 2021\1\Test5.cs" />
@@ -276,10 +282,6 @@
 
   <ItemGroup>
     <Page Include="Problems\2108\2217.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Problems\2201\" />
   </ItemGroup>
 
 </Project>
